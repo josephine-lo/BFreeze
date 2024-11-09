@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		504EB80A2CD2E3D5005D3091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504EB8052CD2E3D5005D3091 /* Assets.xcassets */; };
+		504EB8172CD2E419005D3091 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EB8132CD2E419005D3091 /* Dependencies.swift */; };
+		504EB8182CD2E419005D3091 /* GameContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EB8142CD2E419005D3091 /* GameContext.swift */; };
+		504EB8192CD2E419005D3091 /* GameModeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EB8152CD2E419005D3091 /* GameModeType.swift */; };
+		504EB81A2CD2E419005D3091 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EB8162CD2E419005D3091 /* GameType.swift */; };
+		504EB82F2CD318B9005D3091 /* BFGameContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EB82E2CD318B4005D3091 /* BFGameContext.swift */; };
+		504EB8312CD318E0005D3091 /* BFGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EB8302CD318DB005D3091 /* BFGameScene.swift */; };
+		50AF34AD2CDC0AC20059167A /* BFGameIdleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF34AC2CDC0AB90059167A /* BFGameIdleState.swift */; };
+		50AF34B22CDD90200059167A /* BFConveyorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF34B02CDD901C0059167A /* BFConveyorNode.swift */; };
+		50AF34C22CDDF9B00059167A /* BFLayoutInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EB82D2CD3172B005D3091 /* BFLayoutInfo.swift */; };
+		50AF34C32CDDF9B50059167A /* BFGameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EB82C2CD3170D005D3091 /* BFGameInfo.swift */; };
+		50AF34C52CDE86990059167A /* BFGamePlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF34C42CDE86940059167A /* BFGamePlayingState.swift */; };
+		50AF34C72CDE86A80059167A /* BFGameOverState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF34C62CDE86A40059167A /* BFGameOverState.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		50F96D8F2CBE3E3F002D4FC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		504EB8052CD2E3D5005D3091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504EB8132CD2E419005D3091 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		504EB8142CD2E419005D3091 /* GameContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContext.swift; sourceTree = "<group>"; };
+		504EB8152CD2E419005D3091 /* GameModeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeType.swift; sourceTree = "<group>"; };
+		504EB8162CD2E419005D3091 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		504EB82C2CD3170D005D3091 /* BFGameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFGameInfo.swift; sourceTree = "<group>"; };
+		504EB82D2CD3172B005D3091 /* BFLayoutInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFLayoutInfo.swift; sourceTree = "<group>"; };
+		504EB82E2CD318B4005D3091 /* BFGameContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFGameContext.swift; sourceTree = "<group>"; };
+		504EB8302CD318DB005D3091 /* BFGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFGameScene.swift; sourceTree = "<group>"; };
+		50AF34AC2CDC0AB90059167A /* BFGameIdleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFGameIdleState.swift; sourceTree = "<group>"; };
+		50AF34B02CDD901C0059167A /* BFConveyorNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFConveyorNode.swift; sourceTree = "<group>"; };
+		50AF34C42CDE86940059167A /* BFGamePlayingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFGamePlayingState.swift; sourceTree = "<group>"; };
+		50AF34C62CDE86A40059167A /* BFGameOverState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFGameOverState.swift; sourceTree = "<group>"; };
 		50F96D7D2CBE3E3E002D4FC4 /* BFreeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFreeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F96D8E2CBE3E3F002D4FC4 /* BFreezeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFreezeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F96D982CBE3E3F002D4FC4 /* BFreezeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFreezeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +101,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		504EB81B2CD2E55D005D3091 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				50AF34AB2CDC0AAF0059167A /* States */,
+				50AF34B32CDD90650059167A /* Nodes */,
+				504EB82B2CD300A5005D3091 /* Helpers */,
+				504EB82E2CD318B4005D3091 /* BFGameContext.swift */,
+				504EB8302CD318DB005D3091 /* BFGameScene.swift */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		504EB81C2CD2E56F005D3091 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				504EB8052CD2E3D5005D3091 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		504EB81D2CD2E582005D3091 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				504EB8142CD2E419005D3091 /* GameContext.swift */,
+				504EB8152CD2E419005D3091 /* GameModeType.swift */,
+				504EB8162CD2E419005D3091 /* GameType.swift */,
+				504EB8132CD2E419005D3091 /* Dependencies.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		504EB82B2CD300A5005D3091 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				504EB82D2CD3172B005D3091 /* BFLayoutInfo.swift */,
+				504EB82C2CD3170D005D3091 /* BFGameInfo.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		50AF34AB2CDC0AAF0059167A /* States */ = {
+			isa = PBXGroup;
+			children = (
+				50AF34AC2CDC0AB90059167A /* BFGameIdleState.swift */,
+				50AF34C42CDE86940059167A /* BFGamePlayingState.swift */,
+				50AF34C62CDE86A40059167A /* BFGameOverState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		50AF34B32CDD90650059167A /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				50AF34B02CDD901C0059167A /* BFConveyorNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
 		50F96D742CBE3E3E002D4FC4 = {
 			isa = PBXGroup;
 			children = (
+				504EB81C2CD2E56F005D3091 /* Assets */,
+				504EB81D2CD2E582005D3091 /* Base */,
+				504EB81B2CD2E55D005D3091 /* Code */,
 				50F96D7F2CBE3E3E002D4FC4 /* BFreeze */,
 				50F96D912CBE3E3F002D4FC4 /* BFreezeTests */,
 				50F96D9B2CBE3E3F002D4FC4 /* BFreezeUITests */,
@@ -171,7 +261,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					50F96D7C2CBE3E3E002D4FC4 = {
 						CreatedOnToolsVersion = 16.0;
@@ -212,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504EB80A2CD2E3D5005D3091 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504EB8172CD2E419005D3091 /* Dependencies.swift in Sources */,
+				504EB8182CD2E419005D3091 /* GameContext.swift in Sources */,
+				504EB8192CD2E419005D3091 /* GameModeType.swift in Sources */,
+				50AF34B22CDD90200059167A /* BFConveyorNode.swift in Sources */,
+				50AF34C72CDE86A80059167A /* BFGameOverState.swift in Sources */,
+				504EB81A2CD2E419005D3091 /* GameType.swift in Sources */,
+				504EB8312CD318E0005D3091 /* BFGameScene.swift in Sources */,
+				50AF34AD2CDC0AC20059167A /* BFGameIdleState.swift in Sources */,
+				50AF34C32CDDF9B50059167A /* BFGameInfo.swift in Sources */,
+				50AF34C22CDDF9B00059167A /* BFLayoutInfo.swift in Sources */,
+				504EB82F2CD318B9005D3091 /* BFGameContext.swift in Sources */,
+				50AF34C52CDE86990059167A /* BFGamePlayingState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +406,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -364,6 +468,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -391,6 +496,7 @@
 				CODE_SIGN_ENTITLEMENTS = BFreeze/BFreeze.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"BFreeze/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -428,6 +534,7 @@
 				CODE_SIGN_ENTITLEMENTS = BFreeze/BFreeze.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"BFreeze/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -463,6 +570,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
@@ -485,6 +593,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
@@ -506,6 +615,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
@@ -527,6 +637,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
