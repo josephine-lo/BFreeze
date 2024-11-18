@@ -36,5 +36,7 @@ class BFGameContext: GameContext {
             BFGamePlayingState(scene: gameScene, context: self),
             BFGameOverState(scene: gameScene, context: self)
         ])
+//        stateMachine?.enter(BFGameIdleState.self)
     }
+    
 }

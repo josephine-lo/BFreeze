@@ -9,4 +9,5 @@ import Foundation
 
 struct BFGameInfo {
     var score = 0
+    var miss = -1
 }
